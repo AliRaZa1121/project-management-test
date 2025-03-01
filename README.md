@@ -57,12 +57,7 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-### **Step 7: Install Passport for API Authentication**
-```bash
-php artisan passport:install
-```
-
-### **Step 8: Serve the Application**
+### **Step 7: Serve the Application**
 ```bash
 php artisan serve
 ```
@@ -74,7 +69,7 @@ Your API will be available at `http://127.0.0.1:8000`
 
 ### **Postman Collection**
 You can find the Postman collection for testing API endpoints here:
-[Postman Collection](https://www.postman.com/your-postman-link)
+[Postman Collection](https://documenter.getpostman.com/view/21068385/2sAYdhLAb1)
 
 ---
 
