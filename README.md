@@ -73,11 +73,7 @@ You can find the Postman collection for testing API endpoints here:
 
 ---
 
-## Running Tests
-To run tests for the project, execute:
-```bash
-php artisan test
-```
+
 
 ---
 
