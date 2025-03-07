@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\ApprovalController;
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AttributeController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\TimesheetController;
 
@@ -47,4 +49,11 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::get('/projects/{id}/attributes', [AttributeController::class, 'getProjectAttributes'])->name('api.get.project.attributes');
 
 
+
+    Route::post('/orders', [OrderController::class, 'store'])->name('api.create.order');
+    Route::get('/orders', [OrderController::class, 'index'])->name('api.orders');
+    Route::get('/orders/{order}', [OrderController::class, 'show'])->name('api.show.order');
+    Route::put('/orders/{order}', [OrderController::class, 'update'])->name('api.update.order');
+    Route::delete('/orders/{order}', [OrderController::class, 'destroy'])->name('api.delete.order');
+    Route::post('/orders/{order}/process-approval', [ApprovalController::class, 'processApproval'])->name('api.process.approval');
 });

@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Timesheet;
 use App\Helpers\ResponseHelper;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Validator;
 
 class TimesheetController extends Controller
