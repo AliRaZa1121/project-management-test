@@ -65,6 +65,22 @@ Your API will be available at `http://127.0.0.1:8000`
 
 ---
 
+Sure! Here's how you can structure Step 8 in your **README.md** file:
+
+---
+
+### **Step 8: Run Tests**
+
+After setting up your application, you can run the tests to ensure everything is working as expected.
+
+Run the following command to execute all tests:
+
+```bash
+php artisan test
+
+
+
+
 ## API Documentation
 
 ### **Postman Collection**
