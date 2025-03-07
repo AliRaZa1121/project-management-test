@@ -15,6 +15,7 @@ This project is a Laravel-based API that provides user authentication, project m
 - Timesheet management
 - Dynamic attributes with an EAV system
 - Flexible filtering for projects
+- Order Management
 
 ---
 
