@@ -77,7 +77,9 @@ Run the following command to execute all tests:
 
 ```bash
 php artisan test
+```
 
+---
 
 
 
